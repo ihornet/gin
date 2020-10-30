@@ -1,0 +1,21 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /user/:id                 --> gin/modules/user.GetInfo (5 handlers)
+[GIN-debug] POST   /user                     --> gin/modules/user.AddUser (4 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2020/10/30 - 16:08:21 | 200 |    2.177031ms |       127.0.0.1 | POST     "/user"
+[GIN] 2020/10/30 - 16:08:21 | 200 |    2.506879ms |       127.0.0.1 | POST     "/user"
+[GIN] 2020/10/30 - 16:08:22 | 200 |     125.203µs |       127.0.0.1 | POST     "/user"
+[GIN] 2020/10/30 - 16:08:22 | 200 |     218.922µs |       127.0.0.1 | POST     "/user"
+[GIN] 2020/10/30 - 16:08:22 | 200 |      95.931µs |       127.0.0.1 | POST     "/user"
+[GIN] 2020/10/30 - 16:08:22 | 200 |      183.52µs |       127.0.0.1 | POST     "/user"
+[GIN] 2020/10/30 - 16:08:22 | 200 |      82.054µs |       127.0.0.1 | POST     "/user"
+[GIN] 2020/10/30 - 16:08:22 | 200 |     149.481µs |       127.0.0.1 | POST     "/user"
+[GIN] 2020/10/30 - 16:08:26 | 200 |       91.03µs |       127.0.0.1 | GET      "/user/12"
+[GIN] 2020/10/30 - 16:08:26 | 200 |      141.31µs |       127.0.0.1 | GET      "/user/12"
+[GIN] 2020/10/30 - 16:08:41 | 200 |      53.122µs |       127.0.0.1 | GET      "/user/1222"
+[GIN] 2020/10/30 - 16:08:41 | 200 |      118.18µs |       127.0.0.1 | GET      "/user/1222"
