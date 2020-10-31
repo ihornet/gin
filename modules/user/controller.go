@@ -10,7 +10,7 @@ func GetInfo(ctx *gin.Context) {
 	id := ctx.Param("id")
 	ctx.JSON(http.StatusOK, dto{
 		Id:   id,
-		Name: "zhanghai",
+		Name: "ihornet",
 	})
 }
 
